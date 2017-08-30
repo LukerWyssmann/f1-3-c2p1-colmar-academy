@@ -1,0 +1,433 @@
+
+
+
+/*SETUP AND TESTING*/
+.borderTest{
+  border: 5px solid black;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Scheherazade', serif;
+}
+.titleFont{
+  font-family: 'Strait', sans-serif;
+  color: grey;
+  font-weight: bold;
+}
+.mobileTitleFont{
+  font-family: 'Strait', sans-serif;
+  color: grey;
+  font-weight: bold;
+  font-size: 26px;
+}
+.mobileHeadCon, .mobileBannerCon, .mobileMain, .mobileMajorsCon, .mobileThesisCon, .mobileFooterCon{
+  display: none;
+}
+
+
+
+
+/*HEAD CON*/
+.headerCon{
+  display: flex;
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  margin: auto 24px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.colmarLogo{
+  width: 50px;
+  height: auto;
+}
+#logoLight{
+  color: lightgrey;
+  margin-left: 3px;
+}
+.headNav{
+  margin-left: auto;
+}
+.headNav a{
+  font-size: 18px;
+  margin: auto 16px;
+}
+
+.lastNav{
+  margin-right: 0;
+}
+/*MOBILE HEAD CON*/
+.mobileHead{
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*BANNER CON*/
+.bannerCon{
+  display: flex;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.bannerImage{
+  margin: 32px 24px;
+  max-width: 60%;
+  height: auto%;
+}
+.bannerText{
+  height: auto;
+  width: 30%;
+}
+
+.bannerTitle{
+  font-size: 42px;
+}
+.bannerDescription{
+  font-size: 22px;
+  margin: 20px 0;
+}
+.bannerButton{
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px 0;
+  transition: all 0.5s ease 0.1s;
+}
+
+.bannerButton:hover{
+  color: grey;
+  background-color: black;
+}
+/*MOBILE BANNER CON*/
+.mobileBannerCon{
+
+  width: 100%;
+}
+.mobileBannerImage{
+  width: 100%;
+  height: auto;
+}
+.mobileBannerText{
+  margin: 32px 16px;
+}
+.mobileBannerTitle{
+  font-size: 32px;
+}
+.mobileBannerDescription{
+  font-size: 18px;
+  margin: 32px 0 24px 0;
+}
+.mobileBannerButton{
+  color: white;
+  background-color: grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*MAIN CON*/
+.mainCon{
+  display: flex;
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+.columnArticle{
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+.columnArticle img{
+  width: 100%;
+  height: auto;
+}
+
+.articleTitle{
+  font-size: 42px;
+  margin-top: 32px;
+}
+#articleInfo{
+  font-size: 18px;
+  margin: 24px 0;
+}
+#articleCredit{
+  font-weight: bold;
+}
+
+.columnThumb{
+  width: 40%;
+  height: auto;
+  margin: 32px 0;
+}
+.thumbnail{
+  display: flex;
+  width: 100%;
+}
+.imageCon{
+  margin: 16px 16px;
+  width: 35%;
+  height: auto;
+}
+.imageCon img{
+  width: 100%;
+  height: auto;
+}
+.columnText{
+  width: 65%;
+  margin: auto;
+}
+.thumbTitle{
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+.thumbInfo{
+  font-size: 18px;
+  margin: 8px 0;
+}
+.readMore{
+  color: blue;
+}
+
+.last{
+  background: lightgrey;
+}
+/*MOBILE MAIN CON*/
+.mobileMainCon{
+  width: 100%;
+}
+.mobileMain{
+  margin: 16px 16px 32px 16px;
+}
+.mobileMainThumbnail{
+  width: 100%;
+  height: auto;
+  margin-bottom: 64px;
+}
+.mobileMainThumbnailImage{
+  width: 100%;
+  height: auto;
+}
+.mobileMainThumbnailText{
+  margin-left: 16px;
+  margin-top: 16px;
+}
+.thumbInfo{
+  margin: 8px 0;
+}
+
+
+
+/*MAJORS CON*/
+.startLearning{
+  font-size: 32px;
+  padding-top: 32px;
+  height: auto;
+  text-align: center;
+}
+.majorsCon{
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+}
+.majorsList{
+  margin: 32px 72px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row{
+  display: flex;
+}
+.major{
+  text-align: left;
+  width: 300px;
+  height: 300px;
+  margin: 18px 9px;
+}
+.major img{
+  width: 100%;
+  height: auto;
+}
+.majorText{
+  padding: 16px 0 0 16px;
+  padding-bottom: auto;
+  height: 150px;
+  background-color: white;
+}
+.majorTitle{
+  color: dimgray;
+  font-size: 20px;
+}
+.courses{
+  color: lightgrey;
+  margin: 8px 0;
+}
+.majorInfo{
+  color: lightgrey;
+}
+.bottomThumb{
+  margin-bottom: 32px;
+}
+/*MOBILE MAJORS CON*/
+.mobileMajorsCon{
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+}
+.mobileMajorList{
+  margin-top: 16px;
+
+}
+.mobileMajor{
+  margin: 0 10px 8px 10px;
+  overflow: hidden;
+  height: auto;
+  padding: 16px 0 24px 16px;
+  background: lightgrey;
+  font-size: 24px;
+  color:grey;
+}
+.mobileLast{
+  margin-bottom: 0;
+}
+
+/*THESIS CON*/
+.thesisTitle{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 32px;
+  font-size: 32px;
+}
+.thesis{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.thesisVideo{
+  width: 60%;
+  height: auto%;
+  margin: 32px 24px 24px 24px;
+}
+.thesisVideo video{
+  width: 100%;
+  height: auto;
+}
+#videoText{
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.videoTitle{
+  color: black;
+  margin-bottom: 8px;
+  font-size:  32px;
+  font-weight: bold;
+}
+#videoInfo{
+  font-size: 18px;
+  color: grey;
+}
+
+#thesisThumbnails{
+  width: 40%;
+  margin-top: 32px;
+
+}
+.thesisThumb{
+  width: 100%;
+  display: flex;
+}
+.thesisImage{
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+.thesisImage img{
+  width: 100%;
+  height: auto;
+}
+.thesisText{
+  width: 65%;
+  margin: auto;
+}
+.thesisThumbTitle{
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 24px;
+  font-weight: bold;
+}
+.thesisThumbInfo{
+  font-size: 18px;
+}
+/*MOBILE THESIS CON*/
+.mobileThesisCon{
+  width: 100%;
+  text-align: center;
+  margin: 32px 0 16px 0;
+}
+.thesisTitle{
+  margin-bottom: 16px
+}
+.mobileThesisVideo video{
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+
+
+/*FOOTER CON*/
+.footerCon{
+  margin: 16px 24px;
+  padding-top: 16px;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+/*MOBILE FOOTER CON*/
+.mobileFooterCon{
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
+
+
+@media only screen and (max-width: 760px){
+  .headerCon, .bannerCon, .mainCon, .majorsCon, .thesisCon, .footerCon{
+    display: none;
+  }
+  .mobileHeadCon, .mobileBannerCon, .mobileMain, .mobileMajorsCon, .mobileThesisCon, .mobileFooterCon{
+    display:block;
+  }
+
+}
+
+
+
+/*GIT INFO
+echo "# colmarAcademy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/LukerWyssmann/colmarAcademy.git
+git push -u origin master*/
